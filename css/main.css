@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-header {
+section {
   display: block;
   justify-content: center;
   background-color: #e5c30a;
@@ -39,15 +39,15 @@ img {
   width: 40px;
 }
 
-.box-1 {
+.img-flex {
   float: left;
 }
 
-.box-2 {
+.section-icon {
   float: right;
 }
 
-header h1 {
+section h2 {
   text-align: center;
   flex-direction: row;
   justify-content: space-between;
@@ -55,7 +55,7 @@ header h1 {
   font-weight: bold;
 }
 
-header p {
+section p {
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -64,7 +64,7 @@ header p {
   width: 100%;
 }
 
-p {
+.section-letter {
   text-align: center;
   width: 50%;
   background-color: #e5c30a;
