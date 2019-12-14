@@ -37,6 +37,7 @@ a:hover {
 .wrapper {
   background-color: #e5c30a;
   margin: 0 auto;
+  margin-top: 5px;
   max-width: 45em;
 }
 
@@ -49,14 +50,14 @@ img {
   float: left;
   display: block;
   width: 100%;
-  width: 45%;
+  width: 49%;
   order: 1;
 }
 
 .section-icon {
   float: right;
   display: block;
-  width: 45%;
+  width: 49%;
   order: 2;
 }
 
@@ -112,6 +113,28 @@ section p {
     font-weight: normal;
   }
 
+  .wrapper {
+    background-color: #e5c30a;
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 45em;
+  }
+
+  .img-flex {
+    float: left;
+    display: block;
+    width: 100%;
+    width: 40%;
+    order: 1;
+  }
+
+  .section-icon {
+    float: right;
+    display: block;
+    width: 40%;
+    order: 2;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -119,6 +142,28 @@ section p {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .wrapper {
+    background-color: #e5c30a;
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 45em;
+  }
+
+  .img-flex {
+    float: left;
+    display: block;
+    width: 100%;
+    width: 10%;
+    order: 1;
+  }
+
+  .section-icon {
+    float: right;
+    display: block;
+    width: 10%;
+    order: 2;
   }
 
 }
